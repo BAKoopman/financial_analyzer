@@ -7,10 +7,6 @@ import matplotlib.pyplot as plt
 import pandas_datareader
 import pandas_datareader.data as web
 
-"""Quandl Auth Token"""
-my_token = "qwK9dntpnw1N2HdjrGxo"
-quandl.ApiConfig.api_key = my_token
-
 #determines if parts of the code that show plots wil be executed
 show_plots = False
 
